@@ -118,22 +118,22 @@ public class MapReader {
 		sortStrings();
 	}
 
-	public static void main(String[] args) {
-		new MapReader();
-		
-		// test output
-//		for (Node knoten : Map.nodes) {
-//			System.out.println(knoten);
+//	public static void main(String[] args) {
+//		new MapReader();
+//		
+//		// test output
+////		for (Node knoten : Map.nodes) {
+////			System.out.println(knoten);
+////		}
+////		
+////		for (Connection verbindung : Map.connections) {
+////			System.out.println(verbindung);
+////		}
+//		
+//		for (Stopover haltestelle : Map.stopovers) {
+//			System.out.println(haltestelle);
 //		}
 //		
-//		for (Connection verbindung : Map.connections) {
-//			System.out.println(verbindung);
-//		}
-		
-		for (Stopover haltestelle : Map.stopovers) {
-			System.out.println(haltestelle);
-		}
-		
-	}
+//	}
 
 }
