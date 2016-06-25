@@ -1,0 +1,17 @@
+Next Steps:
+	- Extend the MapReader (2.0) to differentiate between the diffent node type (e.g. only print out taxi nodes)
+	- Create a class node with the attributes ID, x coordinate and y coordinate
+	- Create a class connection with the attributes node1 and node2
+	- Create a class ferry extending from the line class
+	- Create a class subway extending from the line class
+	- Create a class bus extending from the line class
+	- Create a class taxi extending from the line class
+	- Create a class Map with the attributes List<Nodes> and List<Line>
+	- Extend the MapReader (3.0) to read the london.map and fill the data into a Map class
+	
+	- New package structure londonhunt.model and londonhunt.misc
+	- londonhunt.view package erstellen
+	- MapViewTest Class erstellen, die aus einem Frame (benutze ein GUI Framework deiner Wahl) besteht und die Map (JPG) anzeigt.
+	- MapViewTest (2.0) die Koordinaten der LondonMap.map als grafische Punkte auf der JPG Map darstellen.
+	- MapViewTest (3.0) auf der Map einen Spieler anzeigen, der durch Konsolenbefehle von einem Node zum anderen Springen kann.
+	- MapViewTest (4.0) wenn man mit der Mouse ueber einen Node faehrt (Mouseover Event) dann werden die Koordinaten des Nodes angezeigt.
